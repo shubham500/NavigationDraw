@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_prime">Prime</string>
+    <string name="menu_even_odd">Even or Odd</string>
+    <string name="menu_factorial">Factorial</string>
+    <string name="menu_palindrome">Palindrome</string>
+    <string name="menu_temperature_conversion">Temperature Conversion</string>
+    <string name="menu_simple_interst">Simple Interst</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.ui.calculator.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navigationdrawer.ui.prime.PrimeFragment"
+        android:label="@string/menu_prime"
+        tools:layout="@layout/fragment_prime" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navigationdrawer.ui.even_or_odd.EvenOddshowFragment"
+        android:label="@string/menu_even_odd"
+        tools:layout="@layout/fragment_evenodd" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.navigationdrawer.ui.factorial.FactorialFragment"
+        android:label="@string/menu_factorial"
+        tools:layout="@layout/fragment_factorialnumber" />
+    <fragment
+        android:id="@+id/nav_palindrome"
+        android:name="com.example.navigationdrawer.ui.palindrome.PalindromeFragment"
+        android:label="@string/menu_palindrome"
+        tools:layout="@layout/palindrome_fragment" />
+    <fragment
+        android:id="@+id/nav_temperature_conv"
+        android:name="com.example.navigationdrawer.ui.temperatureconversion.TemperatureFragment"
+        android:label="@string/menu_temperature_conversion"
+        tools:layout="@layout/temperature_fragment" />
+
+    <fragment
+        android:id="@+id/nav_simple_interest"
+        android:name="com.example.navigationdrawer.ui.simpleIntrest.SimpleIntrest"
+        android:label="@string/menu_simple_interst"
+        tools:layout="@layout/simple_intrest_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.navigationdrawer.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.navigationdrawer.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

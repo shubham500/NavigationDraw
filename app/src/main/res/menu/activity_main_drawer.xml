@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_filter_2_black_24dp"
+            android:title="Prime" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_filter_3_black_24dp"
+            android:title="Even Or Odd" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_filter_4_black_24dp"
+            android:title="Factorial" />
+
+        <item
+            android:id="@+id/nav_palindrome"
+            android:icon="@drawable/ic_filter_5_black_24dp"
+            android:title="Palindrome" />
+        <item
+            android:id="@+id/nav_temperature_conv"
+            android:icon="@drawable/ic_filter_6_black_24dp"
+            android:title="Temperature Conversion" />
+        <item
+            android:id="@+id/nav_simple_interest"
+            android:icon="@drawable/ic_filter_7_black_24dp"
+            android:title="Simple Interst" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

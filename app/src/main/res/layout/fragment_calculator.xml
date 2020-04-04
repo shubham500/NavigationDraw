@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#785"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+
+        android:gravity="center"
+        android:text="sum of number"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edno1"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTintMode="add"
+        android:hint="Enter number 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edno2"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTintMode="add"
+        android:hint="Enter number 2"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/cal"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="add"
+        android:text="Calculate" />
+    <TextView
+        android:id="@+id/tvresult1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Addition is"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvresult2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Substraction is"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvresult3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Division is"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvresult4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Multiplication is"
+        android:textSize="20sp"/>
+
+</LinearLayout>
